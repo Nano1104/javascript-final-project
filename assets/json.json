@@ -1,0 +1,196 @@
+{
+    "productos": [
+        {
+        "id": 0,
+        "producto": "Cadena con Dije de piedra y brillantes",
+        "precio": 3500,
+        "material": "Acero Quirúrgico",
+        "imagen": "../imagenes/collar.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 1,
+        "producto": "Cadena con dije de perlas",
+        "precio": 3200,
+        "material": "Acero",
+        "imagen": "../imagenes/collar2.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 2,
+        "producto": "Cadena con Dije brillante",
+        "precio": 2800,
+        "material": "Acero",
+        "imagen": "../imagenes/collar3.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 3,
+        "producto": "Cadena con Dije circular",
+        "precio": 2500,
+        "material": "Plata",
+        "imagen": "../imagenes/collar4.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 4,
+        "producto": "Cadena con Dije boca",
+        "precio": 1200,
+        "material": "Plata",
+        "imagen": "../imagenes/collar5.png",
+        "cantidad": 1
+        },
+        {
+        "id": 5,
+        "producto": "Cadena de Acero",
+        "precio": 950,
+        "material": "Plata",
+        "imagen": "../imagenes/collar6.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 6,
+        "producto": "Anillo con piedras y brillantes",
+        "precio": 6200,
+        "material": "Plata",    
+        "imagen": "../imagenes/anillo.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 7,
+        "producto": "Anillo con brillantes azules",
+        "precio": 520,
+        "material": "Plata",
+        "imagen": "../imagenes/anillo2.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 8,
+        "producto": "Anillo sin fin",
+        "precio": 4500,
+        "material": "Plata",
+        "imagen": "../imagenes/anillo3.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 9,
+        "producto": "Anillo sin fin plateado",
+        "precio": 4200,
+        "material": "Plata",
+        "imagen": "../imagenes/anillo4.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 10,
+        "producto": "Anillo con piedra",
+        "precio": 3800,
+        "material": "Plata",
+        "imagen": "../imagenes/anillo5.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 11,
+        "producto": "Anillo con piedra negra",
+        "precio": 3200,
+        "material": "Plata",
+        "imagen": "../imagenes/anillo6.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 12,
+        "producto": "Pulsera esclava dorada",
+        "precio": 700,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 13,
+        "producto": "Pulsera esclava plateada",
+        "precio": 900,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera2.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 14,
+        "producto": "Pulsera clavo",
+        "precio": 900,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera3.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 15,
+        "producto": "Pulsera sin fin",
+        "precio": 1200,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera4.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 16,
+        "producto": "Pulsera romana",
+        "precio": 800,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera5.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 17,
+        "producto": "Pulsera con dije",
+        "precio": 500,
+        "material": "Plata",
+        "imagen": "../imagenes/pulsera6.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 18,
+        "producto": "Aro colgante",
+        "precio": 600,
+        "material": "Plata",
+        "imagen": "../imagenes/aro.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 19,
+        "producto": "Aro dobre Circulo",
+        "precio": 900,
+        "material": "Plata",
+        "imagen": "../imagenes/aro2.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 20,
+        "producto": "Aro dorado con piedra",
+        "precio": 1200,
+        "material": "Plata",
+        "imagen": "../imagenes/aro3.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 21,
+        "producto": "Aros con brillantes",
+        "precio": 2500,
+        "material": "Plata",
+        "imagen": "../imagenes/aro4.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 22,
+        "producto": "Aros con corazón",
+        "precio": 1900,
+        "material": "Plata",
+        "imagen": "../imagenes/aro5.jpg",
+        "cantidad": 1
+        },
+        {
+        "id": 23,
+        "producto": "Aros torzados",
+        "precio": 900,
+        "material": "Plata",
+        "imagen": "../imagenes/aro6.jpg",
+        "cantidad": 1
+        }
+    ]
+}

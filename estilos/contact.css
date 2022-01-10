@@ -1,0 +1,118 @@
+
+/* GLOBALES */
+*,
+::before,
+::after{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #fdd85e;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+html{
+    font-size: 20px;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* TARJETA CONTACTO */
+#formulario{
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    background-image: radial-gradient(1000px circle, gray, black);
+    height: 85vh;
+    width: 60%;
+    margin: 50px auto;
+}
+#formulario h1{
+    color: #fdd85e;
+    padding: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+#form-div{
+    display: flex;
+    justify-content: space-around;
+}
+#formulario div{
+    margin: 20px;
+}
+.formulario__div{
+    text-align: center;
+}
+.formulario__input {
+    opacity: 0.8;
+}
+#nombre{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}
+#edad{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}
+#ubicacion{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}
+#mail{
+    width: 100%;
+    padding: 5px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: .8em;
+}
+.formulario__p{
+    font-size: .8em;
+    margin: 20px 15px;
+    color: orange;
+    text-shadow: 0px 0px 3px black;
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+::placeholder{
+    color: white;
+}
+textarea{
+    font-size: .8em;
+    resize: none;
+    width: 50%;
+    height: 200px;
+}
+textarea::placeholder{
+    color: gray;
+}
+#enlaces{
+    margin-top: 50px;
+}
+#enlaces a{
+    margin: 0px 20px;
+}
+#send-button{
+    padding: 15px;
+    border-radius: 10px;
+    width: 15%;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+    background-color: orange;
+}

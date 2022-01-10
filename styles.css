@@ -1,0 +1,98 @@
+
+/* GLOBALES */
+*,
+::before,
+::after{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #fdd85e;
+}
+html{
+    font-size: 20px;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+}
+
+/* -------------------------------------- HEADER ---------------------------------- */
+
+/* HEADER */
+#header{
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* outline: 10px solid black; */
+}
+#header nav{
+    background-image: linear-gradient(to top, rgb(251, 251, 167), #fdd85e);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+
+
+/* CARRITO */
+#carrito-container{
+    margin-right: 100px;
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+}
+#cantidad{
+    color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: red;
+    padding: 2px;
+    border-radius: 100%;
+}
+#carrito{
+    font-size: 1.5em;
+}
+
+#fondo-container{
+    display: flex;
+}
+#fondo1{
+    background-image: radial-gradient(500px circle, gray, black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 90vh;
+    color: white;
+    font-size: 3em;
+    text-shadow: 0px 0px 10px black;
+}
+#fondo2{
+    background-image: url("imagenes/fondo.jpg");
+    background-position-y: center;
+    width: 350px;
+    height: 90vh;
+}
+
+/* --------------------------------------- MAIN --------------------------------------------- */
+
+
+
+
+

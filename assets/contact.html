@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artemis - Contacto</title>
+    <link rel="stylesheet" href="../estilos/contact.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main id="footer">    <!-- FOOTER -->
+        <form action="" id="formulario">
+            <center>
+                <h1>
+                    Contactanos
+                </h1>
+            </center>
+            <div>
+
+            </div>
+            <div id="form-div">
+                <div> <!-- PRIMERA PARTE DE INPUTS -->
+                    <div class="formulario__div">
+                        <input type="text" id="nombre" placeholder="Ingresa tu nombre" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-nombre">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                    <div class="formulario__div">
+                        <input type="text" id="edad" placeholder="Ingresa tu edad" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-edad">
+                            Debe ingresar un número
+                        </p>
+                        <p class="formulario__p" id="formulario__p-validation-edad2">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                </div>
+                
+                <div> <!-- SEGUNDA PARTE DE INPUTS -->
+                    <div class="formulario__div">
+                        <input type="text" id="ubicacion" placeholder="Ingresa de que zona eres" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-ubicacion">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                    <div class="formulario__div">
+                        <input type="mail" id="mail" placeholder="Ingresa tu mail" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-mail">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+            <div>
+                <center>
+                    <textarea name="" id="textarea" cols="30" rows="10" placeholder="Explaya tu consulta"></textarea>
+                </center>
+            </div>
+            <center>
+                <input type="submit" value="SEND" id="send-button">
+            </center>
+        </form>
+    </main>
+
+    
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- script -->
+    <script src="validacion.js"></script>
+</body>
+</html>

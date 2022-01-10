@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artemis - Productos</title>
+    <!-- FONT Viga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- ANIMATE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../estilos/productos.css">
+</head>
+<body>
+
+    <nav>
+        <div id="carrito-container"> 
+            <div>
+                <a href="#table"><i class="fas fa-shopping-cart" id="carrito"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">  <!-- MAIN -->
+        <select name="ordenamiento" id="seleccion">
+            <option value="ordenar" id="ordenar">Ordenar por:</option>
+            <option value="menor" id="mayorAmenor">Menor a Mayor precio</option>
+            <option value="mayor" id="menorAmayor">Mayor a Menor precio</option>
+          </select>
+        <p id="btn-traer">
+            VER PRODUCTOS
+        </p>
+        
+        <div id="almacen"> <!-- lugar donde se van a alojar los productos -->
+
+        </div>
+
+        <div id="div-tabla">
+            <table class="table-dark" id="table">
+                <thead>
+                    <tr><th scope="col" id="fila-modified">CARRITO🛒</th></tr>
+                    <tr>
+                      <th scope="col">N° Producto</th>
+                      <th scope="col">Producto</th>
+                      <th scope="col">Cantidad</th>
+                      <th scope="col">Precio</th>
+                      <th scope="col">ELIMINAR</th>
+                    </tr>
+                  </thead>
+                  <tbody id="tbody">
+        
+                  </tbody>
+                </table>
+                <div id="cantidad">
+                    <p><strong>Total: $0</strong></p>
+                </div>
+                <button type="button" id="btn-finalizar">FINALIZAR COMPRA</button>
+        </div>
+    </main>
+
+<!-- sweetalert -->
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/767ad93040.js" crossorigin="anonymous"></script> 
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<!-- script -->
+<script src="js.js"></script>
+</body>
+</html>
