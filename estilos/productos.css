@@ -25,9 +25,14 @@ nav{
     font-size: 1.5em;
 }
 #carrito{
+    transition: 0.2s;
     color: black;
 }
-
+#carrito:hover {
+    transition: 0.2s;
+    color: #444;
+    text-shadow: 0px 0px 3px gray;
+}
 /* estilos del maiin */
 #seleccion{
     margin: 20px 50px;
@@ -53,7 +58,6 @@ nav{
     color: #ddd;
     cursor: pointer;
     font-size: 2em;
-    text-decoration: underline;
 }
 #almacen{
     display: grid;
