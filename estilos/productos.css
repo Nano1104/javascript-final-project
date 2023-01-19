@@ -12,26 +12,38 @@ body{
 
 /* ESTILOS DEL NAV Y DEL CARRITO */
 nav{
-    background-image: linear-gradient(to top, #fdd85e, rgb(251, 251, 167));
-}
-#carrito-container{
-    margin-right: 100px;
-    padding: 10px;
-    position: relative;
-    top: 0px;
-    right: 0px;
+    /* background-image: linear-gradient(to top, #fdd85e, rgb(251, 251, 167)); */
+    /* border: 2px solid black; */
+    height: 50px;
     display: flex;
-    justify-content: flex-end;
-    font-size: 1.5em;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+nav a {
+    margin: 20px 150px;
+    /* border: 2px solid black; */
+}
+#home-a {
+    font-size: 1.3em;
+    font-family: Viga, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#home-a:hover {
+    transition: 0.2s;
+    text-shadow: 0px 0px 5px black;
+    color: #ddd;
 }
 #carrito{
+    margin-left: 680px;
+    font-size: 1.3em;
     transition: 0.2s;
     color: black;
 }
 #carrito:hover {
     transition: 0.2s;
-    color: #444;
-    text-shadow: 0px 0px 3px gray;
+    text-shadow: 0px 0px 5px black;
+    color: #ddd;
 }
 /* estilos del maiin */
 #seleccion{
