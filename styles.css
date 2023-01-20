@@ -1,5 +1,6 @@
 
 /* GLOBALES */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *,
 ::before,
 ::after{
@@ -28,14 +29,21 @@ a{
 }
 #header nav{
     width: 100%;
-    height: 10vh;
+    height: 15vh;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid white;
 }
 #header nav li {
     list-style: none;
+}
+#icon {
+    width: 10%;
+}
+#icon img {
+    width: 30%;
+    margin-left: 50px;
+    border-radius: 50%;
 }
 #header nav li a {
     margin: 15px 50px;
@@ -43,12 +51,21 @@ a{
     text-decoration: none;
     color: white;
 }
+#header nav li a:hover {
+    transition: .3s all;
+    color: #f8decd;
+    text-shadow: 0px 0px 7px black;
+    font-size: 22px;
+}
 #title {
-    font-family: Viga, sans-serif;
-    font-size: 2em;
-    color: white;
-    margin-top: 250px;
-    margin-left: 350px;
+    font-family: 'Courgette', cursive;
+    font-size: 6.5em;
+    color: #faebe2;
+    margin-top: 200px;
+    margin-left: 550px;
+    position: absolute;
+    z-index: 1;
+    text-shadow: 0px 0px 10px black;
 }
 #fondo2{
     background-image: url("imagenes/fondo.jpg");

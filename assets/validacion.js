@@ -7,8 +7,8 @@ function validar(e) {
     validarNombre(e);
     validarEdad(e);
     validarUbicacion(e);
-    validarMail(e);
-    if (validarNombre(e) && validarEdad(e) && validarUbicacion(e) && validarMail(e)) {
+    validarCelular(e);
+    if (validarNombre(e) && validarEdad(e) && validarUbicacion(e) && validarCelular(e)) {
         Swal.fire({
             position: 'top-end',
             icon: 'success',
@@ -24,8 +24,8 @@ $("#formulario__p-validation-nombre").hide();
 $("#formulario__p-validation-edad").hide();
 $("#formulario__p-validation-edad2").hide();
 $("#formulario__p-validation-ubicacion").hide();
-$("#formulario__p-validation-mail").hide();
-$("#formulario__p-validation-mail2").hide();
+$("#formulario__p-validation-phone").hide();
+$("#formulario__p-validation-phone2").hide();
 
 // --- VALIDACIÓN DEL CAMPO NOMBRE --- //
 function validarNombre(e) {
@@ -97,26 +97,35 @@ function validarUbicacion(e) {
 
 // --- VALIDACIÓN DEL CAMPO MAIL --- //
 
-function validarMail(e) {
-    //verificar si esta lleno el campo
-    if (mail.value == "") {
+function validarCelular(e) {
+    //verificar el caracter del celular
+    if (isNaN(phone.value)) {
         //agregandole height al form en caso de que salten las alertas
         $("#formulario").css({ height: "95vh" });
-        $("#formulario__p-validation-mail").show();
-        $("#mail").focus(function () {
-            $("#formulario__p-validation-mail").hide();
+        $("#formulario__p-validation-phone").show();
+        $("#phone").focus(function () {
+            $("#formulario__p-validation-phone").hide();
+        });
+        e.preventDefault();
+    }
+    //verificar si esta lleno el campo
+    else if (phone.value == "") {
+        //agregandole height al form en caso de que salten las alertas
+        $("#formulario").css({ height: "95vh" });
+        $("#formulario__p-validation-phone2").show();
+        $("#phone").focus(function () {
+            $("#formulario__p-validation-phone2").hide();
         });
         e.preventDefault();
     }
     //enviar datos al storage
     else {
-        sessionStorage.setItem("Mail", mail.value);
+        sessionStorage.setItem("Celular", phone.value);
         return true;
     }
 }
 
-// --- CAMBIAR EL COLOR DE LOS INPUT --- //
-$("input").focus(function () {
-    $("input").css({ color: "yellow" });
-});
+
+
+
 

@@ -12,8 +12,6 @@ body{
 
 /* ESTILOS DEL NAV Y DEL CARRITO */
 nav{
-    /* background-image: linear-gradient(to top, #fdd85e, rgb(251, 251, 167)); */
-    /* border: 2px solid black; */
     height: 50px;
     display: flex;
     align-items: center;

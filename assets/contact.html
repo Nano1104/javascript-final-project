@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artemis - Contacto</title>
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="../estilos/contact.css">
 </head>
 <body>
@@ -29,6 +32,15 @@
                         </p>
                     </div>
                     <div class="formulario__div">
+                        <input type="text" id="ubicacion" placeholder="Ingresa tu zona" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-ubicacion">
+                            El campo se encuentra incompleto
+                        </p>
+                    </div>
+                </div>
+                
+                <div> <!-- SEGUNDA PARTE DE INPUTS -->
+                    <div class="formulario__div">
                         <input type="text" id="edad" placeholder="Ingresa tu edad" class="formulario__input">
                         <p class="formulario__p" id="formulario__p-validation-edad">
                             Debe ingresar un número
@@ -37,18 +49,12 @@
                             El campo se encuentra incompleto
                         </p>
                     </div>
-                </div>
-                
-                <div> <!-- SEGUNDA PARTE DE INPUTS -->
                     <div class="formulario__div">
-                        <input type="text" id="ubicacion" placeholder="Ingresa de que zona eres" class="formulario__input">
-                        <p class="formulario__p" id="formulario__p-validation-ubicacion">
-                            El campo se encuentra incompleto
+                        <input type="text" id="phone" placeholder="Ingresa tu celular" class="formulario__input">
+                        <p class="formulario__p" id="formulario__p-validation-phone">
+                            Debe ingresar un número
                         </p>
-                    </div>
-                    <div class="formulario__div">
-                        <input type="mail" id="mail" placeholder="Ingresa tu mail" class="formulario__input">
-                        <p class="formulario__p" id="formulario__p-validation-mail">
+                        <p class="formulario__p" id="formulario__p-validation-phone2">
                             El campo se encuentra incompleto
                         </p>
                     </div>
@@ -64,6 +70,8 @@
                 <input type="submit" value="SEND" id="send-button">
             </center>
         </form>
+        <!-- <div id="icon"></div> -->
+        <a href="../index.html" class="enlace"><img src="../imagenes/icono.ico" alt="Inicio" id="icon"></a>
     </main>
 
     
@@ -75,3 +83,5 @@
     <script src="validacion.js"></script>
 </body>
 </html>
+
+

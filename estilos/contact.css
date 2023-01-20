@@ -1,5 +1,6 @@
 
 /* GLOBALES */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 *,
 ::before,
 ::after{
@@ -7,11 +8,8 @@
     margin: 0px;
 }
 body{
-    background-color: #fdd85e;
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
+    background-color: #faebe2;
+    position: relative;
 }
 html{
     font-size: 20px;
@@ -25,16 +23,17 @@ a{
 /* TARJETA CONTACTO */
 #formulario{
     border-radius: 20px;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 10px black;
     background-image: radial-gradient(1000px circle, gray, black);
-    height: 85vh;
-    width: 60%;
+    height: 83vh;
+    width: 45%;
     margin: 50px auto;
 }
 #formulario h1{
-    color: #fdd85e;
+    font-family: 'Courgette', cursive;
+    color: white;
     padding: 20px;
-    text-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 10px black;
 }
 #form-div{
     display: flex;
@@ -47,6 +46,8 @@ a{
     text-align: center;
 }
 .formulario__input {
+    text-align: center;
+    font-family: Viga, sans-serif;
     opacity: 0.8;
 }
 #nombre{
@@ -73,7 +74,7 @@ a{
     border-bottom: 1px solid white;
     font-size: .8em;
 }
-#mail{
+#phone{
     width: 100%;
     padding: 5px;
     background: none;
@@ -82,8 +83,8 @@ a{
     font-size: .8em;
 }
 .formulario__p{
-    font-size: .8em;
-    margin: 20px 15px;
+    font-size: .7em;
+    margin: 5px 0px;
     color: orange;
     text-shadow: 0px 0px 3px black;
     font-family: sans-serif;
@@ -94,10 +95,12 @@ a{
     color: white;
 }
 textarea{
+    text-align: center;
+    font-family: Viga, sans-serif;
     font-size: .8em;
     resize: none;
-    width: 50%;
-    height: 200px;
+    width: 75%;
+    height: 150px;
 }
 textarea::placeholder{
     color: gray;
@@ -108,11 +111,29 @@ textarea::placeholder{
 #enlaces a{
     margin: 0px 20px;
 }
-#send-button{
+#send-button {
+    font-family: Viga, sans-serif;
     padding: 15px;
     border-radius: 10px;
     width: 15%;
     border: none;
-    box-shadow: 0px 0px 5px black;
-    background-color: orange;
+    box-shadow: 0px 0px 3px black;
+    background-color: #d8b8a3;
+    color: black;
+}
+#send-button:hover {
+    transition: .2s all;
+    cursor: pointer;
+    color: #444;
+}
+#icon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    right: 0;
+    bottom: 0;
+    margin-right: 375px;
+    margin-bottom: 10px;
 }
