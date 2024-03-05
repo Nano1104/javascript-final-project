@@ -25,9 +25,10 @@ a{
     border-radius: 20px;
     box-shadow: 5px 5px 10px black;
     background-image: radial-gradient(1000px circle, gray, black);
-    height: 83vh;
+    height: 75vh;
     width: 45%;
     margin: 50px auto;
+    position: relative;
 }
 #formulario h1{
     font-family: 'Courgette', cursive;
@@ -134,6 +135,5 @@ textarea::placeholder{
     border: 1px solid black;
     right: 0;
     bottom: 0;
-    margin-right: 375px;
-    margin-bottom: 10px;
+    margin: 12px;
 }

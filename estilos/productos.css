@@ -12,8 +12,10 @@ body{
 
 /* ESTILOS DEL NAV Y DEL CARRITO */
 nav{
+    width: 100%;
     height: 50px;
     display: flex;
+    justify-content: center;
     align-items: center;
     border-bottom: 1px solid gray;
 }
@@ -55,19 +57,20 @@ nav a {
 #btn-traer{
     display: inline-block;
     font-family: 'Viga', sans-serif;
-    font-size: 1.7em;
-    text-align: center;
-    margin: 35vh 0px;
+    font-size: 2.5em;
     text-shadow: 0px 0px 10px gray;
     transition: .5s all;
-    margin-left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
 }
-#btn-traer:hover{
+#btn-traer span:hover{
     transition: .5s all;
     text-shadow: 0px 0px 10px black;
     color: #ddd;
     cursor: pointer;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 #almacen{
     display: grid;

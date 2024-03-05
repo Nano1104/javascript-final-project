@@ -32,7 +32,6 @@ function validarNombre(e) {
     //verificar si esta lleno el campo
     if (nombre.value == "") {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-nombre").show();
         $("#nombre").focus(function () {
             $("#formulario__p-validation-nombre").hide();
@@ -52,7 +51,6 @@ function validarEdad(e) {
     //verificar el caracter de la edad
     if (isNaN(edad.value)) {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-edad").show();
         $("#edad").focus(function () {
             $("#formulario__p-validation-edad").hide();
@@ -62,7 +60,6 @@ function validarEdad(e) {
     //verificar si esta lleno el campo
     else if (edad.value == "") {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-edad2").show();
         $("#edad").focus(function () {
             $("#formulario__p-validation-edad2").hide();
@@ -81,7 +78,6 @@ function validarUbicacion(e) {
     //verificar si esta lleno el campo
     if (ubicacion.value == "") {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-ubicacion").show();
         $("#ubicacion").focus(function () {
             $("#formulario__p-validation-ubicacion").hide();
@@ -101,7 +97,6 @@ function validarCelular(e) {
     //verificar el caracter del celular
     if (isNaN(phone.value)) {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-phone").show();
         $("#phone").focus(function () {
             $("#formulario__p-validation-phone").hide();
@@ -111,7 +106,6 @@ function validarCelular(e) {
     //verificar si esta lleno el campo
     else if (phone.value == "") {
         //agregandole height al form en caso de que salten las alertas
-        $("#formulario").css({ height: "95vh" });
         $("#formulario__p-validation-phone2").show();
         $("#phone").focus(function () {
             $("#formulario__p-validation-phone2").hide();
